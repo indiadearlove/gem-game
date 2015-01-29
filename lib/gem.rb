@@ -1,7 +1,12 @@
 class Jewel
 
+
   def colour
-    "blue"
+    colours
+  end
+
+  def colours
+    ["blue","red","yellow","green"].sample
   end
 
 end
