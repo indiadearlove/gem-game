@@ -1,6 +1,5 @@
 class Jewel
 
-
   def colour
     colours
   end
