@@ -1,11 +1,21 @@
 class Jewel
 
-  def colour
+  def initialize
     colours
   end
 
+  def colour
+    @jewel
+  end
+
   def colours
-    ["blue","red","yellow","green"].sample
+     @jewel = ["blue","red","yellow","green"].sample 
+  end
+
+  def colour?
+    if "blue" or "red" or "yellow" or "green"
+      return true
+    end
   end
 
 end
