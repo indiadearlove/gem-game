@@ -1,4 +1,3 @@
-require 'rubygems'
-require File.join(File.dirname(__FILE__), 'server.rb')
+require './server.rb'
 
-run gem_game
+run Sinatra::Application.run!
