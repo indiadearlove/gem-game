@@ -8,51 +8,67 @@ table, th, td {
     border-collapse: collapse;
 }
 th, td {
-    padding: 5px;
+    padding: 50px;
 }
 th {
     text-align: left;
+}
+
+#blue{
+  background-color: blue;
+}
+
+#green{
+  background-color: green;
+}
+
+#red{
+  background-color: red;
+}
+
+#yellow{
+  background-color: yellow;
 }
 </style>
 </head>
 
 <body>
 
-<table style="width:10%">
+<table style="width:100%, length:100%">
   <tr>
-    <td><%=@g["A1"].colour%></td>
-    <td><%=@g["A2"].colour%></td>    
-    <td><%=@g["A3"].colour%></td>
-    <td><%=@g["A4"].colour%></td>    
-    <td><%=@g["A5"].colour%></td>
+    <td id='<%=@g["A1"].colour%>'></td>
+    <td id='<%=@g["A2"].colour%>'></td>    
+    <td id='<%=@g["A3"].colour%>'></td>
+    <td id='<%=@g["A4"].colour%>'></td>    
+    <td id='<%=@g["A5"].colour%>'></td>
   </tr>
   <tr>
-    <td><%=@g["B1"].colour%></td>
-    <td><%=@g["B2"].colour%></td>    
-    <td><%=@g["B3"].colour%></td>
-    <td><%=@g["B4"].colour%></td>    
-    <td><%=@g["B5"].colour%></td>
+    <td id='<%=@g["B1"].colour%>'></td>
+    <td id='<%=@g["B2"].colour%>'></td>    
+    <td id='<%=@g["B3"].colour%>'></td>
+    <td id='<%=@g["B4"].colour%>'></td>    
+    <td id='<%=@g["B5"].colour%>'></td>
   </tr>
   <tr>
-    <td><%=@g["C1"].colour%></td>
-    <td><%=@g["C2"].colour%></td>    
-    <td><%=@g["C3"].colour%></td>
-    <td><%=@g["C4"].colour%></td>    
-    <td><%=@g["C5"].colour%></td>
+    <td id='<%=@g["C1"].colour%>'></td>
+    <td id='<%=@g["C2"].colour%>'></td>    
+    <td id='<%=@g["C3"].colour%>'></td>
+    <td id='<%=@g["C4"].colour%>'></td>    
+    <td id='<%=@g["C5"].colour%>'></td>
   </tr>
   <tr>
-    <td><%=@g["D1"].colour%></td>
-    <td><%=@g["D2"].colour%></td>    
-    <td><%=@g["D3"].colour%></td>
-    <td><%=@g["D4"].colour%></td>    
-    <td><%=@g["D5"].colour%></td>
+    <td id='<%=@g["D1"].colour%>'></td>
+    <td id='<%=@g["D2"].colour%>'></td>    
+    <td id='<%=@g["D3"].colour%>'></td>
+    <td id='<%=@g["D4"].colour%>'></td>    
+    <td id='<%=@g["D5"].colour%>'></td>
   </tr>
   <tr>
-    <td><%=@g["E1"].colour%></td>
-    <td><%=@g["E2"].colour%></td>    
-    <td><%=@g["E3"].colour%></td>
-    <td><%=@g["E4"].colour%></td>    
-    <td><%=@g["E5"].colour%></td>
+    <td id='<%=@g["E1"].colour%>'></td>
+    <td id='<%=@g["E2"].colour%>'></td>    
+    <td id='<%=@g["E3"].colour%>'></td>
+    <td id='<%=@g["E4"].colour%>'></td>    
+    <td id='<%=@g["E5"].colour%>'></td>
   </tr>
 </table>
 
