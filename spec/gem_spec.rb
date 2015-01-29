@@ -9,4 +9,8 @@ describe 'Jewel' do
     expect(jewel.colour).to eq "red"
   end
 
+  it('should automatically be created with a colour') do
+    expect(jewel.colour?).to eq true
+  end
+
 end
