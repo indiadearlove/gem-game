@@ -1,3 +1,4 @@
-class GameEngine
+class Game
+
 
 end
