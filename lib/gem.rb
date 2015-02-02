@@ -1,21 +1,15 @@
 class Jewel
 
+  attr_reader :colour
+
+  COLOURS = ['blue','red','yellow','green']
+
   def initialize
-    colours
+    randomize_colour
   end
 
-  def colour
-    @jewel
-  end
-
-  def colours
-     @jewel = ["blue","red","yellow","green"].sample 
-  end
-
-  def colour?
-    if "blue" or "red" or "yellow" or "green"
-      return true
-    end
+  def randomize_colour
+    @colour = COLOURS.sample 
   end
 
 end

@@ -9,6 +9,4 @@ describe 'Grid' do
     expect(grid.board.flatten.length).to eq 25
   end
 
-
-
 end
